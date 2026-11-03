@@ -1,0 +1,33 @@
+mots-fr.txt — liste de mots de la Course aux mots (version « fr-gl7.7-1 »)
+
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+Cet avis (« Exhibit A » de la licence) vaut pour le fichier voisin mots-fr.txt, qui ne peut pas le contenir
+lui-même : il est lu mot par mot par l'app et son empreinte SHA-256 est contrôlée.
+
+Source
+------
+« Lexique des formes fléchies du français », Grammalecte / Dicollecte, version 7.7, par Olivier R.
+https://grammalecte.net — sous licence Mozilla Public License 2.0.
+Fichier d'origine : https://www.grammalecte.net/dic/lexique-grammalecte-fr-v7.7.zip
+  (lexique-grammalecte-fr-v7.7.txt, SHA-256 dc1fa3740e6353bccdcb435ea8f1c8a65287726026abd53dd232d5d494548eff)
+
+Modifications
+-------------
+La liste est fabriquée par le script tools/build_word_list.py, à partir du fichier d'origine :
+1. sont retirés les noms propres, prénoms et patronymes (étiquettes npr, prn, patr), les sigles, symboles,
+   unités et formes marquées cc ou abty ;
+2. sont retirées les formes qui commencent par une majuscule ou contiennent autre chose qu'une lettre
+   (chiffre, espace, apostrophe, trait d'union, point) ;
+3. Œ devient OE, Æ devient AE, les accents et la cédille sont retirés, tout est mis en majuscules ;
+4. ne restent que les mots de 3 à 9 lettres A à Z, sans doublon, triés par octets, un par ligne ;
+5. une liste noire relue à la main (tools/word_list_blacklist.txt) retire 129 mots : sigles, onomatopées
+   répétitives, noms de lettres grecques, préfixes et éléments étrangers de locutions.
+Résultat : 161 978 mots, SHA-256 fcc692540f149610a1ac4088c5c54680592ba3b143402da325da4afd886afc4d.
+
+Où obtenir la liste modifiée
+----------------------------
+La liste modifiée, sa liste noire et son script sont publiés sous la même licence (MPL 2.0) à l'adresse :
+https://github.com/pierrejosephbecker-stack/ninix-mots-fr

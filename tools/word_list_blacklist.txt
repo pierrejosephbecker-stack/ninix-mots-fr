@@ -1,0 +1,148 @@
+# Liste noire de la Course aux mots : mots retirés de la liste « fr-gl7.7-1 » après le filtre de
+# tools/build_word_list.py. Un mot par ligne, en majuscules A à Z ; « # » ouvre un commentaire.
+# Relecture du 03/11/2026 (lot v025) : les 529 mots de 3 lettres un par un, les 2 236 mots de 4 lettres parcourus,
+# et, sur toutes les longueurs, les entrées que Grammalecte marque comme préfixe, suffixe ou élément de locution.
+# Règle : on écarte ce qui n'est pas un mot français employé seul ; on garde les vrais mots, même rares, familiers
+# ou abrégés devenus des mots (ADO, FAC, PSY, ZOO, VELO, METRO…). Dans le doute, on garde le mot.
+
+# Sigles, fragments d'adresses et abréviations graphiques
+COM
+FTP
+FTPS
+HTTP
+HTTPS
+LOL
+ORG
+PTS
+WWW
+
+# Onomatopées faites d'une lettre répétée, sans voyelle
+BRRR
+GRRR
+HMM
+KSS
+MMM
+PFF
+PFFT
+TSS
+ZZZ
+ZZZZ
+
+# Noms de lettres grecques sans autre sens courant
+# (gardés : ALPHA, BETA, DELTA, GAMMA, IOTA, LAMBDA, OMEGA, SIGMA, qui servent aussi hors de l'alphabet grec)
+CHI
+CHIS
+EPSILON
+EPSILONS
+ETA
+ETAS
+KAPPA
+KAPPAS
+KHI
+KHIS
+KSI
+KSIS
+OMICRON
+OMICRONS
+PHI
+PHIS
+PSI
+PSIS
+RHO
+TAU
+TAUS
+THETA
+THETAS
+UPSILON
+UPSILONS
+XIS
+ZETA
+ZETAS
+
+# Préfixes qui n'existent que dans des mots composés (italo-américain…), jamais seuls
+# (gardés : ANTI, MULTI, SEMI, employés seuls dans la langue familière)
+ANGLO
+ARABO
+AUSTRO
+BELGO
+CANADO
+ETHYL
+GERMANO
+HELVETICO
+HISPANO
+ISRAELO
+ITALO
+METHYL
+QUEBECO
+RUSSO
+SINO
+
+# Éléments étrangers (latins, italiens, arabe) de locutions, jamais employés seuls en français
+# (gardés, car français : ANTAN, API, BRIC, CATIMINI, EMBLEE, ENVI, JEUN, PATATA, PATATI, PERPETE, TAPINOIS…)
+ABRUPTO
+ABSTRACTO
+ABSURDO
+AETERNAM
+BENE
+CAETERA
+CAPELLA
+CAPPELLA
+CATHEDRA
+CETERA
+COETERA
+COMMODO
+CONTRARIO
+CUJUS
+DIE
+EXTENSO
+EXTREMIS
+FACTO
+FORTIORI
+GENERIS
+GIORNO
+GROSSO
+HOC
+HOMINEM
+HONORIS
+IBN
+INCOGNITA
+INCOMMODO
+INFINITUM
+INITIO
+INTUITU
+IPSO
+IRATO
+LIBITUM
+MANU
+MILITARI
+MODO
+MORTEM
+MUTANDIS
+MUTATIS
+NAUSEAM
+NIHILO
+NUNC
+ORBI
+OVO
+PERSONAE
+PETTO
+PROFESSO
+PROFUNDIS
+QUA
+QUANTI
+QUIA
+QUO
+SENSU
+SINE
+SITU
+STATU
+STRICTO
+SUI
+URBI
+UTERO
+VADE
+VALOREM
+VISU
+VITAM
+VITRO
+VIVO
